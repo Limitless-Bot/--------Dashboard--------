@@ -12,6 +12,7 @@ body{
     min-height: 100vh;
     background: #0e1538;
 }
+
 .container{
     display: flex;
     justify-content: center;
@@ -80,6 +81,7 @@ body{
     background: rgba(255,255,255,0.075);
     transform: skew(25deg);
 }
+
 .drops{
     position: relative;
     display: flex;
@@ -132,6 +134,7 @@ body{
     transform: scale(0.35) translate(120px,-350px);
     border-radius: 35% 65% 68% 32% / 61% 46% 54% 39%;
 }
+
 .sidebar{
     position: fixed;
     top: 0;
@@ -353,3 +356,4 @@ sidebar.active ul li .tooltip{
     width: calc(100% - 240px);
     left: 240px;
 }
+
