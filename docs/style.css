@@ -20,8 +20,9 @@ body{
 }
 .container a{
     position: relative;
-    width: 160px;
-    height: 60px;
+    width: 170px;
+    height: 70px;
+    right: 300px;
     display: inline-block;
     background: #fff;
     margin: 20px;
@@ -56,7 +57,7 @@ body{
     width: 100%;
     height: 100%;
     display: inline-block;
-    background: #0e1538;
+    background: transparent;
     z-index: 10;
     display: flex;
     justify-content: center;
@@ -67,6 +68,7 @@ body{
     color: #fff;
     border: 1px solid #040a29;
     overflow: hidden;
+    transition: 1.5s;
 }
 .container a span:before{
     content: '';
