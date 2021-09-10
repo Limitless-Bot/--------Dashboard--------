@@ -13,6 +13,18 @@ body{
     background: #0e1538;
 }
 
+.tm{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    bottom: 3px;
+}
+.tm span{
+    color: gray;
+    font-size: 14px;
+    filter: opacity(40%);
+}
+
 .container{
     display: flex;
     justify-content: center;
